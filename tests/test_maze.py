@@ -11,7 +11,7 @@ __maintainer__ = "Son Hoang"
 __email__ = "T.S.Hoang@soton.ac.uk"
 __status__ = "Prototype"
 
-from maze import Maze
+from src.maze import Maze
 
 
 def test_constructor_get_dimensions() -> None:

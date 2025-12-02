@@ -13,8 +13,8 @@ __status__ = "Prototype"
 
 import pytest
 
-from maze import Maze
-from maze_runner import maze_reader  # type: ignore
+from src.maze import Maze
+from src.maze_runner import maze_reader  # type: ignore
 
 
 def test_maze_reader_maze1() -> None:
