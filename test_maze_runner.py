@@ -1,5 +1,6 @@
 from maze import Maze  # type: ignore
 from runner import (  # type: ignore
+
     create_runner,
     get_x,
     get_y,
@@ -9,9 +10,9 @@ from runner import (  # type: ignore
 
 
 def test_runner_sense_walls() -> None:
-    """A Unit test for :py:func:`~Maze.sense_walls`
+    """
+    A Unit test for :py:func:`~Maze.sense_walls`
 
-    Below is the test sequence:
 
     1. Create a maze of size (11, 5).
 
@@ -29,9 +30,9 @@ def test_runner_sense_walls() -> None:
 
 
 def test_runner_go_straight() -> None:
-    """A Unit test for :py:func:`~Maze.go_straight`
+    """
+    A Unit test for :py:func:`~Maze.go_straight`
 
-    Below is the test sequence:
 
     1. Create a maze of size (11, 5).
 
@@ -52,9 +53,9 @@ def test_runner_go_straight() -> None:
 
 
 def test_move() -> None:
-    """A Unit test for :py:func:`~Maze.move`
+    """
+    A Unit test for :py:func:`~Maze.move`
 
-    Below is the test sequence:
 
     1. Create a maze of size (11, 5).
 
@@ -102,13 +103,3 @@ def test_move() -> None:
     assert get_orientation(runner) == get_orientation(
         test_runner
     ), "Incorrect orientation for the runner"
-
-
-def test_explore() -> None:
-    """
-    The test for :py:func:~Maze.explore should be similar to test_move() above
-    (i.e., replaying the action to see if a test runner can follow the action to
-    get to the target destination. This will be left as an exercise for any keen
-    testers.
-    """
-    pass

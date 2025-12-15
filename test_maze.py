@@ -2,10 +2,10 @@ from maze import Maze
 
 
 def test_constructor_get_dimensions() -> None:
-    """A Unit test for :py:func:`~maze.__init__` and
+    """
+    A Unit test for :py:func:`~maze.__init__` and
     accessing the width and height properties.
 
-    Below is the test sequence:
 
     1. Create a maze of size (11, 5).
 
@@ -18,10 +18,10 @@ def test_constructor_get_dimensions() -> None:
 
 
 def test_constructor_get_walls() -> None:
-    """A Unit test for :py:func:`~Maze.__init__` and
+    """
+    A Unit test for :py:func:`~Maze.__init__` and
     :py:func:`~Maze.get_walls`
 
-    Below is the test sequence:
 
     1. Create a maze of size (11, 5).
 
@@ -32,10 +32,10 @@ def test_constructor_get_walls() -> None:
 
 
 def test_add_horizontal_wall() -> None:
-    """A Unit test for :py:func:`~Maze.add_horizontal_wall` and
+    """
+    A Unit test for :py:func:`~Maze.add_horizontal_wall` and
     :py:func:`~Maze.get_walls`
 
-    Below is the test sequence:
 
     1. Create a maze of size (11, 5).
 
@@ -50,10 +50,10 @@ def test_add_horizontal_wall() -> None:
 
 
 def test_add_vertical_wall() -> None:
-    """A Unit test for :py:func:`~Maze.add_vertical_wall` and
+    """
+    A Unit test for :py:func:`~Maze.add_vertical_wall` and
     :py:func:`~Maze.get_walls`
 
-    Below is the test sequence:
 
     1. Create a maze of size (11, 5).
 

@@ -9,9 +9,9 @@ from runner import (  # type: ignore
 
 
 def test_create_runner() -> None:
-    """A Unit test for :py:func:`~runner.create_runner`
 
-    Below is the test sequence:
+    """
+    A Unit test for :py:func:`~runner.create_runner`
 
     1. Create a runner at position (1,2), facing South.
 
@@ -25,9 +25,9 @@ def test_create_runner() -> None:
 
 
 def test_turn() -> None:
-    """A Unit test for :py:func:`~runner.turn`
+    """
+    A Unit test for :py:func:`~runner.turn`
 
-    Below is the test sequence:
 
     1. Create a runner at position (1,2), facing South.
 
@@ -43,9 +43,9 @@ def test_turn() -> None:
 
 
 def test_forward() -> None:
-    """A Unit test for :py:func:`~runner.forward`
+    """
+    A Unit test for :py:func:`~runner.forward`
 
-    Below is the test sequence:
 
     1. Create a runner at position (1,2), facing South.
 

@@ -2,9 +2,9 @@ from maze import Maze
 
 
 def test_shortest_path() -> None:
-    """A Unit test for :py:func:`~maze.shortest_path`
+    """
+    A Unit test for :py:func:`~maze.shortest_path`
 
-    Below is the test sequence:
 
     1. Create a maze of size (11, 5).
 
